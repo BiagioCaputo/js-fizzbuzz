@@ -6,5 +6,20 @@
 .square{
     width: 125px;
     height: 125px;
-    background-color:#1389B2;
+}
+
+.bg-square-blu{
+    background-color: #1389B2;
+}
+
+.bg-square-fizz{
+    background-color: #0BD6A0;
+}
+
+.bg-square-buzz{
+    background-color: #FFD166;
+}
+
+.bg-square-fizz-buzz{
+    background-color: #F0466F;
 }
