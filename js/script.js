@@ -6,11 +6,11 @@ console.log("JS OK")
 
 //recupero il contenitore della mia lista
 
-const containerUl = document.getElementById("ul-container")
+const containerUl = document.querySelector(".ul-container")
 
 //inizializzo la mia lista
 
-let listNumbers = "<ul>";
+let listNumbers = '<ul class="list-unstyled d-flex gap-3 flex-wrap">';
 
 //ciclo for per i numeri da 1 a 100
 for(let i = 1; i <= 100; i++){ 
@@ -33,12 +33,12 @@ for(let i = 1; i <= 100; i++){
         number = "fizzbuzz";
     }
     //salvo la mia variabile nel mio li
-    listNumbers += ` <li>${number}</li>` ;
+    listNumbers += ` <li class="square d-flex align-items-center justify-content-center"><span>${number}</span></li>` ;
 } 
 
 //chiudo la mia lista
 listNumbers += "</ul>";
 
 //pubblico la mia lista nell'html
-containerUl.innerHTML = listNumbers;
+containerUl.innerHTML += listNumbers;
     

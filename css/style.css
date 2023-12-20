@@ -1,3 +1,10 @@
 .bg-blue{
     background-color: #083B4C;
 }
+
+
+.square{
+    width: 125px;
+    height: 125px;
+    background-color:#1389B2;
+}
